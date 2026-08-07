@@ -15,6 +15,7 @@ import {
   FileJson,
   Search,
   AlertTriangle,
+  Radio,
   Github,
   ExternalLink,
 } from "lucide-react";
@@ -36,6 +37,23 @@ const ProjectsSection = () => {
       ],
       technologies: ["MySQL", "HTML", "Java"],
       githubLink: "https://github.com/chahar01/QR-Attendance-System",
+    },
+    {
+      icon: ShieldAlert,
+      year: 2026,
+      title: "ARP Spoofing Attack & Detection Tool",
+      description:
+        "Network security platform that simulates ARP spoofing attacks and detects ARP poisoning in real time on local networks.",
+      features: [
+        { icon: Radio, text: "ARP spoofing attack simulation" },
+        { icon: Activity, text: "Real-time packet capture and ARP table monitoring" },
+        { icon: AlertTriangle, text: "Duplicate IP and MAC address change detection" },
+        { icon: Shield, text: "Suspicious ARP reply identification" },
+        { icon: Database, text: "SQLite-backed security event history" },
+        { icon: Activity, text: "Flask dashboard with live alerts and device data" },
+      ],
+      technologies: ["Python", "Scapy", "Flask", "SQLite"],
+      githubLink: "https://github.com/chahar01/ARP-Spoofing-Tool",
     },
     {
       icon: ShieldAlert,

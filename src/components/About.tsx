@@ -42,8 +42,8 @@ const About = () => {
             size="lg"
             className="shadow-lg hover:shadow-xl transition-shadow"
           >
-            <a href={`${import.meta.env.BASE_URL}Rahul_Resume.pdf`}
-               download="Rahul_Kumar_Resume.pdf">
+            <a href={`${import.meta.env.BASE_URL}Rahul_Kumar_Resume.docx`}
+               download="Rahul_Kumar_Resume.docx">
               <Download className="w-4 h-4 mr-2" />
               Download Resume
             </a>
